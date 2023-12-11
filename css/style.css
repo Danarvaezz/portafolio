@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300&family=Roboto:wght@300;400;500;700&display=swap');
+
+:root{
+	--color-footer:#B1B1B1;
+	--color-gris:#DCDCDC;
+	--color-blanco:#FFF;
+}
+.titulos {
+	text-align: center;
+	padding-top: 7%;
+	font-size: 400%;
+	color: var(--color-blanco);
+
+}
+.subtitulos {
+	font-family: 'Crimson Pro', serif;
+	text-align: center;
+	padding-bottom: 7%;
+}
+.logo {
+	height: 70px;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+footer {
+	background-color: var(--color-footer);
+	text-align: center;
+	background-image: url("../img/footer.jpg");
+	background-size: cover;
+}
+.section {
+	padding: 7%;
+}
+#Acerca {
+	padding: 300px 0px 300px 0px;
+	margin-bottom: 20px;
+	background-color: rgba(127,127,127,0.90);
+	background-image:url("../img/Fondo de pantalla.jpeg");
+	background-size: cover;
+	background-blend-mode: multiply;
+}
+#Servicios {
+	margin-bottom: 20px;
+	background-color: var(--color-gris);
+	text-align: center;
+}
+#Portafolio {
+	margin-bottom: 20px;
+}
+#Contacto {
+	background-color: var(--color-gris);
+}
+footer h5 {
+	font-size: 20px;
+	margin-top: 20px;
+	color:  var(--color-blanco);
+}
+#Servicios img {
+	height: 250px;
+	width: 400px;
+}
+#Acerca h2 {
+	font-size: 100px;
+	color: var(--color-blanco);
+}
+#Acerca h4 {
+	font-size: 30px;
+	color: var(--color-blanco);
+}
+#Acerca p {
+	color: var(--color-blanco);
+	letter-spacing: 5px;
+	text-align: justify;
+}
+footer article {
+	color: var(--color-blanco);
+}
+#Servicios .servicios {
+	text-align: center;
+	letter-spacing: 2px;
+}
+#Contacto h3 {
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+.port {
+	text-align: center;
+	padding-top: 7%;
+	font-size: 400%;
+	color: #000000;
+}
+#Portafolio .ima {
+	height: 500px;
+	width: 400px;
+	text-align: center;
+	padding: 7%;
+}
+#Portafolio .porth {
+	text-align: center;
+}
+#Portafolio .portp {
+	text-align: center;
+}
